@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+/* Add custom scrollbar styling */
+.scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #4a5568 #edf2f7; /* Track and thumb colors */
+}
+
+/* For Webkit browsers (Chrome, Safari) */
+.scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #0369a1; /* Thumb color */
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background-color: #edf2f7; /* Track color */
+}
