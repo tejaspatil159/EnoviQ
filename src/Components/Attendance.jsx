@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ToggleSwitch from "./ToggleSwitch";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClipboardUser } from "@fortawesome/free-solid-svg-icons";
