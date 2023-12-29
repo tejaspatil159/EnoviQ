@@ -9,7 +9,7 @@ const image =
 const Attendance = () => {
   return (
     <div
-      className="flex flex-col  object-contain  m-2 shadow-md shadow-black rounded-md p-2  "
+      className="flex flex-col object-contain  m-2 shadow-md shadow-black rounded-md p-2  "
       style={{
         backgroundImage: `url(${image})`,
       }}
